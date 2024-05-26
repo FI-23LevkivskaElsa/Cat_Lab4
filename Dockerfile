@@ -3,4 +3,7 @@ WORKDIR /NUnitTestProject
 
 COPY . ./
 
+RUN dotnet restore
+RUN dotnet build
+
 CMD ["dotnet", "test", "--no-restore"]
