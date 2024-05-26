@@ -9,7 +9,7 @@ class GarbageCollectorTest
     private const int maxGarbage = 1000;
 
     [Test]
-    static void Main()
+    public void Main()
     {
         GarbageCollectorTest.MakeSomeGarbage();
         var before = GC.GetTotalMemory(false);
