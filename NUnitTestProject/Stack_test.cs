@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace tests;
+namespace NUnitTestProject;
 
 public sealed class StackTest
 {
