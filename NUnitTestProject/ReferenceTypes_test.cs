@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace tests;
+namespace NUnitTestProject;
 
 [TestFixture]
 public sealed class ReferenceTypeTest
