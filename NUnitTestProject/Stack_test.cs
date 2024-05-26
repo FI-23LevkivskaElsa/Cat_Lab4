@@ -6,7 +6,7 @@ namespace NUnitTestProject;
 public sealed class StackTest
 {
 
-    static public void Main()
+    static public void CreatStack()
     {
         Stack my_stack = new Stack();
 
